@@ -1,0 +1,33 @@
+extends layout
+
+block content
+  .chat_window
+    .top_menu
+      .buttons
+        .button.close
+      .title #{title}
+    ul.messages.chat
+    
+    .bottom_login.clearfix.login
+      .alert.alert-warning.text-center.error(role='alert')
+      .name_input_wrapper
+        input.name_input(placeholder='Into your user name please...')
+      .send_name
+        .icon
+        .text Go to chat
+    
+    .bottom_wrapper.clearfix.chat
+      .message_input_wrapper
+        input.message_input(placeholder='Type your message here...')
+      .send_message
+        .icon
+        .text Send
+    
+  .message_template.chat
+    li.message
+      .avatar(data-toggle='tooltip')
+      .text_wrapper
+        .text
+  
+  .facebook Login with Facebook
+  a(href='/login') Facebook

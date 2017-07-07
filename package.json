@@ -1,0 +1,20 @@
+{
+  "name": "mionix-chat",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.2.6",
+    "jade": "*",
+    "socket.io": "^1.7.4",
+    "cfenv": "1.0.x",
+    "express-session": "^1.15.2"
+  },
+  "description": "This a public chat",
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "MIT"
+}
